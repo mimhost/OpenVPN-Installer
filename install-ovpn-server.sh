@@ -232,12 +232,12 @@ CA INFO: Creating Certificate Authority vars file...
 '
 
 ssh "$name"@"$ipv4ca" cat > ~/easy-rsa/vars << EOF
-set_var EASYRSA_REQ_COUNTRY    "US"
-set_var EASYRSA_REQ_PROVINCE   "NewYork"
-set_var EASYRSA_REQ_CITY       "New York City"
+set_var EASYRSA_REQ_COUNTRY    "MY"
+set_var EASYRSA_REQ_PROVINCE   "Selangor"
+set_var EASYRSA_REQ_CITY       "Gombak"
 set_var EASYRSA_REQ_ORG        "Copyleft Foundation"
-set_var EASYRSA_REQ_EMAIL      "admin@example.com"
-set_var EASYRSA_REQ_OU         "Community"
+set_var EASYRSA_REQ_EMAIL      "irwanmohi@gmail.com"
+set_var EASYRSA_REQ_OU         "SakaiVPN"
 set_var EASYRSA_ALGO           "ec"
 set_var EASYRSA_DIGEST         "sha512"
 EOF
